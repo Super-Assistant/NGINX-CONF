@@ -1,5 +1,5 @@
 server {
-    server_name www.push-backend.superassistant.io push-backend.superassistant.io;
+    server_name www.app1.superassistant.io app1.superassistant.io;
     location / {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
