@@ -1,5 +1,5 @@
 server {
-    server_name www.wishlist.superassistant.io wishlist.superassistant.io;
+    server_name www.wishlist-backend.superassistant.io wishlist-backend.superassistant.io;
     location / {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
