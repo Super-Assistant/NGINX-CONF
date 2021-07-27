@@ -1,5 +1,5 @@
 server {
-    server_name www.test-rewards-backend.superassistant.io test-rewards-backend.superassistant.io;
+    server_name www.rewards-backend.superassistant.io rewards-backend.superassistant.io;
     location / {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
